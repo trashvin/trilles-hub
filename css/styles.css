@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
-    color: #424242;
-    background: rgb(185, 228, 247);
+    color: whitesmoke;
+    background: rgb(18, 20, 20);
 
 }
 .center-full {
@@ -12,29 +12,37 @@ body {
 a {
     text-decoration: none;
 }
-img.logo {
-    height: 50px;
-    width: 50px;
+
+img.logo-new {
+    height: 125px;
+    width: 125px;
     margin: 10px;
     border: solid 4px transparent;
 }
-img.logo-wide {
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    border: solid 4px transparent;
-}
-img.logo-med {
-    height: 50px;
-    width: 75px;
-    margin: 10px;
-    border: solid 4px transparent;
-}
-img.movie {
-    height: 150px;
-    width: 100px;
-    margin: 10px;
-}
+
 img:hover {
     border-color: springgreen;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
