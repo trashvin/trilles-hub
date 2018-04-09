@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #424242;
+    background: rgb(185, 228, 247);
+
+}
+.center-full {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+img.logo {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: solid 4px transparent;
+}
+img.logo-wide {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border: solid 4px transparent;
+}
+img.logo-med {
+    height: 50px;
+    width: 75px;
+    margin: 10px;
+    border: solid 4px transparent;
+}
+img.movie {
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+}
+img:hover {
+    border-color: springgreen;
+}
